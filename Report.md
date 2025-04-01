@@ -1,30 +1,35 @@
 # Project Title
 
-Simple overview of use/purpose.
+This project shows 20 news.
 
 ## Description
+First, we need an API key to run this program. You should get it from this website: "https://NewsAPI.org".
+Second, in the Infrastructure class, we retrieve the information, and the API returns data in JSON format.
+Third, the part that I wrote is the News class, which converts JSON data into News objects.
+At the end, the program displays 20 news articles, and the user can choose a number to get the full information about the selected news article.
 
-An in-depth paragraph about your project and overview of use.
 
 ## Getting Started
 
 ### Dependencies
+✅make sure you have java JDK installed!
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+✅add this to your dependencies
+
+implementation 'org.json:json:20210307'
 
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+Download this program from my github
+"https://github.com/reynorozi/Second-Assignment-BreakingNews"
+
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
+open the project in IntelliJ IDEA.
+Navigate to the main class containing the main method.
+and click on RUN botton.
+
 
 ## Help
 
@@ -35,10 +40,8 @@ command to run if program contains helper info
 
 ## Authors
 
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+Reyhane Noroozi  
+my github "https://github.com/reynorozi"
 
 ## Version History
 
